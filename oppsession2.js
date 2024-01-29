@@ -1,4 +1,4 @@
-class car{
+ class car{
     // properties
     constructor(name,modelnumber,color){
         this.name=name;

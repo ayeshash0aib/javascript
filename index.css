@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(127, 174, 255);
+    
+}
+button{
+    width: 60px;
+    height: 30px;
+    margin-top:30px ;
+    border-radius: 8px;
+    border:none;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(40, 87, 168);
+}
+#search{
+    margin-top: 30px;
+    width: 200px;
+    height: 25px;
+    border-radius: 8px;
+    border:none;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}

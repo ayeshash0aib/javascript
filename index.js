@@ -13,7 +13,7 @@ function gettemp(){
         return res.json()
     })
     .then( function(result){console.log(result.main.temp)
-    document.getElementById("head").innerHTML=result.main.temp
+    document.getElementById("head").innerHTML=Math.round(result.main.temp)
     })
 
 }
